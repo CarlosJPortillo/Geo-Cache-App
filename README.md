@@ -1,2 +1,2 @@
 # Geo-Cache-App
-An app that displays nearby geo cache locations on a google maps widget via markers. These locations displayed are filtered through the graphical user interface parameters. This app also uses Flickr api to show thumbnail photos taken at that location.  
+An app that displays nearby geo cache locations on a google maps widget via markers. These locations displayed are filtered through the graphical user interface parameters. Those parameters are passed to a PHP script, which runs an MySQL query and returns those results back to the client side, which processes that data to display. This app also uses Flickr api to show thumbnail photos taken at that location.  
